@@ -1,0 +1,4 @@
+1st round: Technical Phone Interview (Focus: Coding, Data Structure & Algo) 
+2nd round: Embedded Interview (Domain Focused: Focus on coding in C/C++ and Embedded domain knowledge relevant to the candidate's subdomain expertise) 
+3rd&4th round: Embedded Coding Interviews (Embedded Coding)
+5th round: Googleyness and Leadership Interview (Behavioral)
