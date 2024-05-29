@@ -44,5 +44,10 @@ int main()
     int target_3 = 6;
     p = s.twoSum(nums_3, target_3);
     cout << "[" << p[0] << "," << p[1] << "]" << endl;
+
+    vector<int> nums_4 = { 2,7,11,15 };
+    int target_4 = 9;
+    p = s.twoSum(nums_4, target_4);
+    cout << "[" << p[0] << "," << p[1] << "]" << endl;
 }
 
