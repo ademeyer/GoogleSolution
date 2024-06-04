@@ -96,6 +96,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImplementTriePrefixTree", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DesignAddAndSearchWordsDataStructure", "DesignAddAndSearchWordsDataStructure\DesignAddAndSearchWordsDataStructure.vcxproj", "{6FC18459-261A-461E-BABE-A56A997E4D75}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WordSearchII", "WordSearchII\WordSearchII.vcxproj", "{C7098C29-7E61-481A-92F6-D2B0F96351DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -376,6 +378,14 @@ Global
 		{6FC18459-261A-461E-BABE-A56A997E4D75}.Release|x64.Build.0 = Release|x64
 		{6FC18459-261A-461E-BABE-A56A997E4D75}.Release|x86.ActiveCfg = Release|Win32
 		{6FC18459-261A-461E-BABE-A56A997E4D75}.Release|x86.Build.0 = Release|Win32
+		{C7098C29-7E61-481A-92F6-D2B0F96351DC}.Debug|x64.ActiveCfg = Debug|x64
+		{C7098C29-7E61-481A-92F6-D2B0F96351DC}.Debug|x64.Build.0 = Debug|x64
+		{C7098C29-7E61-481A-92F6-D2B0F96351DC}.Debug|x86.ActiveCfg = Debug|Win32
+		{C7098C29-7E61-481A-92F6-D2B0F96351DC}.Debug|x86.Build.0 = Debug|Win32
+		{C7098C29-7E61-481A-92F6-D2B0F96351DC}.Release|x64.ActiveCfg = Release|x64
+		{C7098C29-7E61-481A-92F6-D2B0F96351DC}.Release|x64.Build.0 = Release|x64
+		{C7098C29-7E61-481A-92F6-D2B0F96351DC}.Release|x86.ActiveCfg = Release|Win32
+		{C7098C29-7E61-481A-92F6-D2B0F96351DC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -415,6 +425,7 @@ Global
 		{A453D6D6-C7DD-4843-80FA-84AA092B102A} = {22E845C9-B885-4A05-862A-D890D086CD76}
 		{7726E21F-1AB3-45C2-BA32-6FDE29C87F6F} = {67126383-56DA-4674-9723-C0BFADF5A3BC}
 		{6FC18459-261A-461E-BABE-A56A997E4D75} = {67126383-56DA-4674-9723-C0BFADF5A3BC}
+		{C7098C29-7E61-481A-92F6-D2B0F96351DC} = {67126383-56DA-4674-9723-C0BFADF5A3BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8874FB64-97F9-4303-857F-22226BFDCF4E}

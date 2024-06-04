@@ -1,5 +1,5 @@
 // WordSearch.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Time: M x N x 4 ^ L: L = word len
 
 #include <iostream>
 #include <vector>
