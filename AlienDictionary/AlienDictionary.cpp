@@ -13,7 +13,7 @@ class Solution
 public:
     string foreignDictionary(vector<string>& words)
     {
-        unordered_map<char, char> adj;
+        unordered_map<char, vector<char>> adj;
 
         for (int i = 0; i < words.size() - 1; ++i)
         {
@@ -30,27 +30,38 @@ public:
             {
                 if (w1[j] == w2[j])
                 {
-                    adj[w1[j]] = w2[j];
+                    adj[w1[j]].push_back(w2[j]);
                     break;
                 }
             }
         }
         unordered_map<char, bool> visited;
         string result;
-
+        string res;
         function<bool(char)> dfs = [&](char c)
         {
             if (visited.find(c) != visited.end())
                 return visited[c];
             
             visited[c] = true;
-            for (auto nei : adj[c])
+            for (int i = 0; i < adj.size(); ++i)
             {
-                if (dfs[nei])
-                    return true;
+                if (adj.find(c) != adj.end())
+                {
+                    auto j = adj[c];
+                    for (auto i : j)
+                        if(dfs(i))
+                            return true;
+                }
             }
             visited[c] = false;
+            result += c;
+
         };
+
+        for (auto str : adj)
+            //for (auto c : str.second)
+                dfs(str.first);
 
         return result;
 
@@ -59,4 +70,10 @@ public:
 
 int main() 
 {
+    Solution s;
+    vector<string> input = { "z","o" };
+    cout << s.foreignDictionary(input) << endl;
+
+    input = { "hrn","hrf","er","enn","rfnn" };
+    cout << s.foreignDictionary(input) << endl;
 }
