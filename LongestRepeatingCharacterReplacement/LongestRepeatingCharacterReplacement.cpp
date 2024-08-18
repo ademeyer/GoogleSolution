@@ -1,6 +1,9 @@
 // LongestRepeatingCharacterReplacement.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
+/*
+*     Time: O(n)
+    Space: O(26)
+*/
 #include <iostream>
 #include <unordered_map>
 using namespace std;

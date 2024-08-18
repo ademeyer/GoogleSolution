@@ -1,5 +1,9 @@
 // LongestSubstringWithoutRepeatingCharacters.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
+/*
+    Time: O(n)
+    Space: O(n)
+*/
 
 #include <iostream>
 #include <unordered_set>

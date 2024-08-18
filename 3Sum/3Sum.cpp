@@ -1,6 +1,9 @@
 // 3Sum.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
+/*
+    Time: O(n^2)
+    Space: O(n)
+*/
 #include <iostream>
 #include <algorithm>
 #include <vector>
