@@ -8,6 +8,69 @@
 #include <set>
 using namespace std;
 
+/*
+class Solution
+{
+public:
+    int numIslands(vector<vector<char>>& grid)
+    {
+        if (grid.empty())
+            return 0;
+        int rows = grid.size();
+        int cols = grid[0].size();
+
+        set<pair<int, int>> visited;
+        int island = 0;
+
+        function<void(int, int)> bfs = [&](int r, int c)
+        {
+            queue<pair<int, int>> q;
+            visited.insert({ r,c });
+            q.push({ r,c });
+            const vector<pair<int, int>> dirs = { {1,0}, {-1,0}, {0,1}, {0, -1} };
+
+            while (!q.empty())
+            {
+                auto loc = q.front(); q.pop();
+                int row = loc.first;
+                int col = loc.second;
+
+                for (auto dir : dirs)
+                {
+                    int i = row + dir.first;
+                    int j = col + dir.second;
+
+                    if (i < rows &&
+                        j < cols &&
+                        grid[i][j] == '1' &&
+                        visited.count({ i, j }) == 0)
+                    {
+                        q.push({ i, j });
+                        visited.insert({ i, j });
+                    }
+                }
+            }
+
+        };
+
+        for (int r = 0; r < rows; ++r)
+        {
+            for (int c = 0; c < cols; ++c)
+            {
+                if (grid[r][c] == '1' && visited.count({ r,c }) == 0)
+                {
+                    bfs(r, c);
+                    ++island;
+                }
+            }
+        }
+
+
+        return island;
+    }
+};
+*/
+
 class Solution
 {
 
