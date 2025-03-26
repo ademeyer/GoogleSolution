@@ -1,5 +1,8 @@
 // LowestCommonAncestorOfABinarySearchTree.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// 
+/*
+    Time Complexity: Ologn
+*/
 
 #include <iostream>
 using namespace std;
