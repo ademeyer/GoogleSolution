@@ -12,7 +12,11 @@ class compare
 public:
     bool operator()(const pair<int, int>& a, const pair<int, int>& b)
     {
-        return a.first >= b.first;
+        if (a.first > b.first)
+            return true;
+        if (a.first == b.first) // if procecessing time are the same
+            return a.second > b.second;
+        return false;
     }
 };
 
@@ -33,7 +37,7 @@ public:
         vector<int> res;
         priority_queue<pair<int,int>, vector<pair<int, int>>, compare> minHeap;
         i = 0;
-        auto time = tasks[0][0];
+        unsigned long time = tasks[0][0];
         while (!minHeap.empty() || i < tasks.size())
         {
             while (i < tasks.size() && time >= tasks[i][0])
