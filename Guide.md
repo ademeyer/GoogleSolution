@@ -1,0 +1,65 @@
+﻿
+** Meta Questions **
+    - Done:
+        - 1.    Clone Graph
+        - 2.    Course Schedule (Topological Sort)
+        - 3.    Serialize and Deserialize Binary Tree
+        - 4.    Binary Tree Maximum Path Sum
+        - 5.    Maximum Product Subarray
+        - 6.    Merge K Sorted Lists
+        - 7.    LRU Cache Implementation
+        - 8.    Longest Palindromic Substring
+        - 9.    Find the Longest Increasing Subsequence
+        - 10.   Minimum Remove to Make Valid Parentheses
+        - 11.   Max Consecutive Ones III
+        - 12.   Valid Palindrome
+        - 13.   Kth Largest Element in an Array
+        - 14.   Asteroid Collision
+        - 15.   Binary Search Tree Iterator
+        - 16.   Minimum Window Substring
+        - 17.   Top K Frequent Elements
+        - 18.   Pow(x, n)
+        - 19.   K Closest Points to Origin
+        - 20.   Pacific Atlantic Water Flow
+        - 21.   Best Time to Buy and Sell Stock
+        - 22.   Merge Sorted Array
+        - 23.   Binary Tree Zigzag Level Order Traversal
+        - 24.   Lowest Common Ancestor of a Binary Tree
+        - 25.   Simplify Path
+        - 26.   Word Search II
+        - 27.   Maximum Swap
+        - 28.   Shortest Path in Binary Matrix
+        - 29.   Range Sum of BST
+        - 30.   Making A Large Island
+        - 31.   Next Permutation
+    - Todo:
+        - 1.    N-Queens Problem
+        - 2.    Trapping Rain Water
+        - 3.    Word Ladder
+        - 4.    Median of Two Sorted Arrays
+        - 5.    Sum Root to Leaf Numbers
+        - 6.    Diameter of Binary Tree
+        - 7.    Dot Product of Two Sparse Vectors
+        - 8.    Modify characters by shifting pattern (not on leetcode)
+        - 9.    Valid Word Abbreviation
+        - 10.   Find Peak Element
+        - 11.   Buildings With an Ocean View
+        - 12.   Valid Palindrome II
+        - 13.   Valid Number
+        - 14.   
+        - 15.   Basic Calculator II
+        - 16.   Vertical Order Traversal of a Binary Tree
+        - 17.   Minesweeper
+        - 18.   Sliding Window Median
+        - 19.   Interval List Intersections
+        - 20.   Custom Sort String
+        - 21.   Subarray Sum Equals K
+        - 22.   Palindrome Permutation
+        - 23.   Lowest Common Ancestor of a Binary Tree III
+        - 24.   Lowest Common Ancestor of a Binary Search Tree
+        - 25.   Valid Palindrome III
+        - 26.   Sliding Window Maximum
+        - 27.   Letter Combinations of a Phone Number
+        - 28.   find closest element in BST
+
+    - Looking through Top 75  in the Last 6 Months list

@@ -31,7 +31,6 @@ public:
         // while we have excess '(' starting from the end
         if (cnt != 0)
         {
-           
             s = result;
             result.clear();
             for (int i = s.size() - 1; i >= 0; --i)
