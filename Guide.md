@@ -32,6 +32,9 @@
         - 29.   Range Sum of BST
         - 30.   Making A Large Island
         - 31.   Next Permutation
+        - 32.   Subarray Sum Equals K
+        - 33.   find closest element in BST
+        - 34.   Letter Combinations of a Phone Number
     - Todo:
         - 1.    N-Queens Problem
         - 2.    Trapping Rain Water
@@ -53,13 +56,11 @@
         - 18.   Sliding Window Median
         - 19.   Interval List Intersections
         - 20.   Custom Sort String
-        - 21.   Subarray Sum Equals K
+        - 21.   
         - 22.   Palindrome Permutation
         - 23.   Lowest Common Ancestor of a Binary Tree III
         - 24.   Lowest Common Ancestor of a Binary Search Tree
         - 25.   Valid Palindrome III
         - 26.   Sliding Window Maximum
-        - 27.   Letter Combinations of a Phone Number
-        - 28.   find closest element in BST
 
     - Looking through Top 75  in the Last 6 Months list
