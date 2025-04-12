@@ -35,6 +35,17 @@
         - 32.   Subarray Sum Equals K
         - 33.   find closest element in BST
         - 34.   Letter Combinations of a Phone Number
+        - 35.   Sliding Window Maximum
+        - 36.   Valid Palindrome II
+        - 37.   Valid Palindrome III
+        - 38.   Lowest Common Ancestor of a Binary Search Tree
+        - 39.   Lowest Common Ancestor of a Binary Tree III
+        - 40.   Palindrome Permutation
+        - 41.   Custom Sort String
+        - 42.   Interval List Intersections
+        - 43.   Sliding Window Median
+        - 44.   Minesweeper
+        - 45.   Vertical Order Traversal of a Binary Tree
     - Todo:
         - 1.    N-Queens Problem
         - 2.    Trapping Rain Water
@@ -47,20 +58,10 @@
         - 9.    Valid Word Abbreviation
         - 10.   Find Peak Element
         - 11.   Buildings With an Ocean View
-        - 12.   Valid Palindrome II
+        - 12.   
         - 13.   Valid Number
         - 14.   
         - 15.   Basic Calculator II
-        - 16.   Vertical Order Traversal of a Binary Tree
-        - 17.   Minesweeper
-        - 18.   Sliding Window Median
-        - 19.   Interval List Intersections
-        - 20.   Custom Sort String
-        - 21.   
-        - 22.   Palindrome Permutation
-        - 23.   Lowest Common Ancestor of a Binary Tree III
-        - 24.   Lowest Common Ancestor of a Binary Search Tree
-        - 25.   Valid Palindrome III
-        - 26.   Sliding Window Maximum
+        - 16.   
 
     - Looking through Top 75  in the Last 6 Months list
