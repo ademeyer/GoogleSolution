@@ -46,6 +46,12 @@
         - 43.   Sliding Window Median
         - 44.   Minesweeper
         - 45.   Vertical Order Traversal of a Binary Tree
+        - 46.   Basic Calculator II
+        - 47.   Valid Number
+        - 48.   Buildings With an Ocean View
+        - 49.   Find Peak Element
+        - 50.   Valid Word Abbreviation
+
     - Todo:
         - 1.    N-Queens Problem
         - 2.    Trapping Rain Water
@@ -55,13 +61,5 @@
         - 6.    Diameter of Binary Tree
         - 7.    Dot Product of Two Sparse Vectors
         - 8.    Modify characters by shifting pattern (not on leetcode)
-        - 9.    Valid Word Abbreviation
-        - 10.   Find Peak Element
-        - 11.   Buildings With an Ocean View
-        - 12.   
-        - 13.   Valid Number
-        - 14.   
-        - 15.   Basic Calculator II
-        - 16.   
 
     - Looking through Top 75  in the Last 6 Months list
