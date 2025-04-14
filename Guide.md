@@ -33,7 +33,7 @@
         - 30.   Making A Large Island
         - 31.   Next Permutation
         - 32.   Subarray Sum Equals K
-        - 33.   find closest element in BST
+        - 33.   Find closest element in BST
         - 34.   Letter Combinations of a Phone Number
         - 35.   Sliding Window Maximum
         - 36.   Valid Palindrome II
@@ -51,15 +51,42 @@
         - 48.   Buildings With an Ocean View
         - 49.   Find Peak Element
         - 50.   Valid Word Abbreviation
+        - 51.   Trapping Rain Water
+        - 52.   Word Ladder
+        - 53.   Sum Root to Leaf Numbers
+        - 54.   Diameter of Binary Tree
 
     - Todo:
-        - 1.    N-Queens Problem
-        - 2.    Trapping Rain Water
-        - 3.    Word Ladder
+        - 1.    
+        - 2.    
+        - 3.    
         - 4.    Median of Two Sorted Arrays
-        - 5.    Sum Root to Leaf Numbers
-        - 6.    Diameter of Binary Tree
-        - 7.    Dot Product of Two Sparse Vectors
+        - 5.    
+        - 6.   
+        - 7.    
         - 8.    Modify characters by shifting pattern (not on leetcode)
 
     - Looking through Top 75  in the Last 6 Months list
+
+
+
+    class Solution {
+public:
+    // Function to shift letters in the string based on the shifts vector.
+    string shiftingLetters(string s, vector<int>& shifts) {
+        long long totalShifts = 0;  // Initialize total shifts to 0
+        int stringLength = s.size(); // Get the size of the string
+      
+        // Loop through the string starting from the end
+        for (int i = stringLength - 1; i >= 0; --i) {
+            totalShifts += shifts[i];  // Add shifts for current position to total shifts
+            totalShifts %= 26;         // Avoid overflow and keep within valid alphabet indexes
+          
+            // Calculate the new offset for current letter based on the total shifts
+            int newLetterIndex = (s[i] - 'a' + totalShifts) % 26;
+            s[i] = 'a' + newLetterIndex;  // Set the new letter in the string
+        }
+      
+        return s;  // Return the modified string after shifts
+    }
+};
